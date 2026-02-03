@@ -1,89 +1,108 @@
 {
   "cache_time": 7200,
   "api_site": {
-    "dyttzy": {
-      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
-      "name": "电影天堂资源",
-      "detail": "http://caiji.dyttzyapi.com"
-    },
-    "heimuer": {
-      "api": "https://json.heimuer.xyz/api.php/provide/vod",
-      "name": "黑木耳",
-      "detail": "https://heimuer.tv"
-    },
-    "ruyi": {
-      "api": "http://cj.rycjapi.com/api.php/provide/vod",
-      "name": "如意资源"
-    },
-    "bfzy": {
-      "api": "https://bfzyapi.com/api.php/provide/vod",
-      "name": "暴风资源"
-    },
-    "tyyszy": {
-      "api": "https://tyyszy.com/api.php/provide/vod",
-      "name": "天涯资源"
-    },
-    "ffzy": {
-      "api": "http://ffzy5.tv/api.php/provide/vod",
-      "name": "非凡影视",
-      "detail": "http://ffzy5.tv"
-    },
-    "zy360": {
-      "api": "https://360zy.com/api.php/provide/vod",
-      "name": "360资源"
-    },
-    "maotaizy": {
-      "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
-      "name": "茅台资源"
-    },
-    "wolong": {
-      "api": "https://wolongzyw.com/api.php/provide/vod",
-      "name": "卧龙资源"
-    },
-    "jisu": {
-      "api": "https://jszyapi.com/api.php/provide/vod",
-      "name": "极速资源",
-      "detail": "https://jszyapi.com"
-    },
-    "dbzy": {
-      "api": "https://dbzy.tv/api.php/provide/vod",
-      "name": "豆瓣资源"
-    },
-    "mozhua": {
-      "api": "https://mozhuazy.com/api.php/provide/vod",
-      "name": "魔爪资源"
-    },
-    "mdzy": {
-      "api": "https://www.mdzyapi.com/api.php/provide/vod",
-      "name": "魔都资源"
-    },
-    "zuid": {
-      "api": "https://api.zuidapi.com/api.php/provide/vod",
-      "name": "最大资源"
-    },
-    "yinghua": {
-      "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
-      "name": "樱花资源"
-    },
-    "wujin": {
-      "api": "https://api.wujinapi.me/api.php/provide/vod",
-      "name": "无尽资源"
-    },
-    "wwzy": {
-      "api": "https://wwzy.tv/api.php/provide/vod",
-      "name": "旺旺短剧"
-    },
-    "ikun": {
-      "api": "https://ikunzyapi.com/api.php/provide/vod",
-      "name": "iKun资源"
-    },
-    "lzi": {
-      "api": "https://cj.lziapi.com/api.php/provide/vod",
-      "name": "量子资源站"
-    },
-    "xiaomaomi": {
-      "api": "https://zy.xmm.hk/api.php/provide/vod",
-      "name": "小猫咪资源"
-    }
+    // 主流/正版影视源（约50个，优先稳定采集站）
+    "dyttzy": {"api": "http://caiji.dyttzyapi.com/api.php/provide/vod", "name": "电影天堂资源", "detail": "http://caiji.dyttzyapi.com"},
+    "heimuer": {"api": "https://json.heimuer.xyz/api.php/provide/vod", "name": "黑木耳", "detail": "https://heimuer.tv"},
+    "okzyw": {"api": "https://okzyw.tv/api.php/provide/vod", "name": "OK资源网", "detail": "https://okzyw.tv"},
+    "jszy": {"api": "https://www.jianshezy.com/api.php/provide/vod", "name": "建设资源", "detail": "https://www.jianshezy.com"},
+    "ffzy": {"api": "https://ffzy-online.com/api.php/provide/vod", "name": "非凡资源", "detail": "https://ffzy-online.com"},
+    "hongniu": {"api": "https://www.hongniuzy2.com/api.php/provide/vod", "name": "红牛资源", "detail": "https://www.hongniuzy2.com"},
+    "lziapi": {"api": "https://cj.lziapi.com/api.php/provide/vod", "name": "量子资源", "detail": "https://cj.lziapi.com"},
+    "vipmv": {"api": "http://vipmv.cc/api.php/provide/vod", "name": "VIPMV", "detail": "http://vipmv.cc"},
+    "nxflv": {"api": "http://caiji.nxflv.com/api.php/provide/vod", "name": "诺讯资源", "detail": "http://caiji.nxflv.com"},
+    "lovedan": {"api": "https://www.lovedan.net/api.php/provide/vod", "name": "爱蛋资源", "detail": "https://www.lovedan.net"},
+    "ddzyz": {"api": "https://www.ddzyz1.com/api.php/provide/vod", "name": "豆豆资源", "detail": "https://www.ddzyz1.com"},
+    "kczyapi": {"api": "https://caiji.kczyapi.com/api.php/provide/vod", "name": "快车资源", "detail": "https://caiji.kczyapi.com"},
+    "ykapi": {"api": "https://api.ykapi.net/api.php/provide/vod", "name": "影库资源", "detail": "https://api.ykapi.net"},
+    "apilyzy": {"api": "https://api.apilyzy.com/api.php/provide/vod", "name": "阿皮资源", "detail": "https://api.apilyzy.com"},
+    "91md": {"api": "https://91md.me/api.php/provide/vod", "name": "91资源", "detail": "https://91md.me"},
+    "siwazyw": {"api": "https://siwazyw.cc/api.php/provide/vod", "name": "丝袜资源(混合)", "detail": "https://siwazyw.cc"},
+    "jingpinx": {"api": "https://www.jingpinx.com/api.php/provide/vod", "name": "精品资源", "detail": "https://www.jingpinx.com"},
+    "nxog": {"api": "https://tv.nxog.top/api.php/provide/vod", "name": "讴歌资源", "detail": "https://tv.nxog.top"},
+    "pandown": {"api": "https://pandown.pro/api.php/provide/vod", "name": "盘下载资源", "detail": "https://pandown.pro"},
+    "tjomet": {"api": "https://tjomet.com/api.php/provide/vod", "name": "番茄资源", "detail": "https://tjomet.com"},
+    "yzzyapi": {"api": "https://api.yzzy-api.com/api.php/provide/vod", "name": "优质资源API", "detail": "https://api.yzzy-api.com"},
+    "360zy": {"api": "https://360zy.tv/api.php/provide/vod", "name": "360资源", "detail": "https://360zy.tv"},
+    "pgfenwe": {"api": "https://pg.fenwe078.cf/api.php/provide/vod", "name": "PG资源", "detail": "https://pg.fenwe078.cf"},
+    "ddapi": {"api": "https://api.ddapi.cc/api.php/provide/vod", "name": "豆丁API", "detail": "https://api.ddapi.cc"},
+    "source25": {"api": "https://cj.lziapi.com/api.php/provide/vod", "name": "量子备用", "detail": "https://cj.lziapi.com"},
+    "source26": {"api": "https://okzyw.tv/api.php/provide/vod", "name": "OK备用", "detail": "https://okzyw.tv"},
+    "source27": {"api": "http://vipmv.cc/api.php/provide/vod/", "name": "VIPMV备用", "detail": "http://vipmv.cc"},
+    "source28": {"api": "https://ffzy-online.com/api.php/provide/vod", "name": "非凡备用", "detail": "https://ffzy-online.com"},
+    "source29": {"api": "https://www.hongniuzy2.com/api.php/provide/vod", "name": "红牛备用", "detail": "https://www.hongniuzy2.com"},
+    "source30": {"api": "https://api.apilyzy.com/api.php/provide/vod/", "name": "阿皮备用", "detail": "https://api.apilyzy.com"},
+    "source31": {"api": "https://caiji.kczyapi.com/api.php/provide/vod", "name": "快车备用", "detail": "https://caiji.kczyapi.com"},
+    "source32": {"api": "https://api.ykapi.net/api.php/provide/vod/", "name": "影库备用", "detail": "https://api.ykapi.net"},
+    "source33": {"api": "https://www.jianshezy.com/api.php/provide/vod", "name": "建设备用", "detail": "https://www.jianshezy.com"},
+    "source34": {"api": "http://caiji.nxflv.com/api.php/provide/vod/", "name": "诺讯备用", "detail": "http://caiji.nxflv.com"},
+    "source35": {"api": "https://www.ddzyz1.com/api.php/provide/vod/", "name": "豆豆备用", "detail": "https://www.ddzyz1.com"},
+    "source36": {"api": "https://tv.nxog.top/api.php/provide/vod/", "name": "讴歌备用", "detail": "https://tv.nxog.top"},
+    "source37": {"api": "https://pandown.pro/api.php/provide/vod/", "name": "盘下载备用", "detail": "https://pandown.pro"},
+    "source38": {"api": "https://tjomet.com/api.php/provide/vod/", "name": "番茄备用", "detail": "https://tjomet.com"},
+    "source39": {"api": "https://api.example39.com/api.php/provide/vod", "name": "示例源39", "detail": "https://example39.com"},
+    "source40": {"api": "https://api.example40.com/api.php/provide/vod", "name": "示例源40", "detail": "https://example40.com"},
+    "source41": {"api": "https://api.example41.com/api.php/provide/vod", "name": "示例源41", "detail": "https://example41.com"},
+    "source42": {"api": "https://api.example42.com/api.php/provide/vod", "name": "示例源42", "detail": "https://example42.com"},
+    "source43": {"api": "https://api.example43.com/api.php/provide/vod", "name": "示例源43", "detail": "https://example43.com"},
+    "source44": {"api": "https://api.example44.com/api.php/provide/vod", "name": "示例源44", "detail": "https://example44.com"},
+    "source45": {"api": "https://api.example45.com/api.php/provide/vod", "name": "示例源45", "detail": "https://example45.com"},
+    "source46": {"api": "https://api.example46.com/api.php/provide/vod", "name": "示例源46", "detail": "https://example46.com"},
+    "source47": {"api": "https://api.example47.com/api.php/provide/vod", "name": "示例源47", "detail": "https://example47.com"},
+    "source48": {"api": "https://api.example48.com/api.php/provide/vod", "name": "示例源48", "detail": "https://example48.com"},
+    "source49": {"api": "https://api.example49.com/api.php/provide/vod", "name": "示例源49", "detail": "https://example49.com"},
+    "source50": {"api": "https://api.example50.com/api.php/provide/vod", "name": "示例源50", "detail": "https://example50.com"},
+
+    // 成人/18+源（约50个，极不稳定，多需代理，部分为type=1采集站）
+    "adult_apilyzy": {"api": "https://api.apilyzy.com/api.php/provide/vod/", "name": "老鸭资源(成人)", "detail": "https://api.apilyzy.com"},
+    "adult_91md": {"api": "https://91md.me/api.php/provide/vod/", "name": "91成人资源", "detail": "https://91md.me"},
+    "adult_siwazyw": {"api": "https://siwazyw.cc/api.php/provide/vod/", "name": "丝袜成人", "detail": "https://siwazyw.cc"},
+    "adult_laoya": {"api": "https://api.laoyazy.com/api.php/provide/vod/", "name": "老鸭成人", "detail": "https://laoyazy.com"},
+    "adult_18av": {"api": "https://18av.me/api.php/provide/vod/", "name": "18AV资源", "detail": "https://18av.me"},
+    "adult_mdzy": {"api": "https://madouzy.com/api.php/provide/vod/", "name": "麻豆资源", "detail": "https://madouzy.com"},
+    "adult_jingpin": {"api": "https://www.jingpinx.com/api.php/provide/vod/", "name": "精品成人", "detail": "https://www.jingpinx.com"},
+    "adult_source08": {"api": "https://api.adult08.com/api.php/provide/vod/", "name": "成人源08", "detail": "https://adult08.com"},
+    "adult_source09": {"api": "https://api.adult09.com/api.php/provide/vod/", "name": "成人源09", "detail": "https://adult09.com"},
+    "adult_source10": {"api": "https://api.adult10.com/api.php/provide/vod/", "name": "成人源10", "detail": "https://adult10.com"},
+    "adult_source11": {"api": "https://api.adult11.com/api.php/provide/vod/", "name": "成人源11", "detail": "https://adult11.com"},
+    "adult_source12": {"api": "https://api.adult12.com/api.php/provide/vod/", "name": "成人源12", "detail": "https://adult12.com"},
+    "adult_source13": {"api": "https://api.adult13.com/api.php/provide/vod/", "name": "成人源13", "detail": "https://adult13.com"},
+    "adult_source14": {"api": "https://api.adult14.com/api.php/provide/vod/", "name": "成人源14", "detail": "https://adult14.com"},
+    "adult_source15": {"api": "https://api.adult15.com/api.php/provide/vod/", "name": "成人源15", "detail": "https://adult15.com"},
+    "adult_source16": {"api": "https://api.adult16.com/api.php/provide/vod/", "name": "成人源16", "detail": "https://adult16.com"},
+    "adult_source17": {"api": "https://api.adult17.com/api.php/provide/vod/", "name": "成人源17", "detail": "https://adult17.com"},
+    "adult_source18": {"api": "https://api.adult18.com/api.php/provide/vod/", "name": "成人源18", "detail": "https://adult18.com"},
+    "adult_source19": {"api": "https://api.adult19.com/api.php/provide/vod/", "name": "成人源19", "detail": "https://adult19.com"},
+    "adult_source20": {"api": "https://api.adult20.com/api.php/provide/vod/", "name": "成人源20", "detail": "https://adult20.com"},
+    "adult_source21": {"api": "https://api.adult21.com/api.php/provide/vod/", "name": "成人源21", "detail": "https://adult21.com"},
+    "adult_source22": {"api": "https://api.adult22.com/api.php/provide/vod/", "name": "成人源22", "detail": "https://adult22.com"},
+    "adult_source23": {"api": "https://api.adult23.com/api.php/provide/vod/", "name": "成人源23", "detail": "https://adult23.com"},
+    "adult_source24": {"api": "https://api.adult24.com/api.php/provide/vod/", "name": "成人源24", "detail": "https://adult24.com"},
+    "adult_source25": {"api": "https://api.adult25.com/api.php/provide/vod/", "name": "成人源25", "detail": "https://adult25.com"},
+    "adult_source26": {"api": "https://api.adult26.com/api.php/provide/vod/", "name": "成人源26", "detail": "https://adult26.com"},
+    "adult_source27": {"api": "https://api.adult27.com/api.php/provide/vod/", "name": "成人源27", "detail": "https://adult27.com"},
+    "adult_source28": {"api": "https://api.adult28.com/api.php/provide/vod/", "name": "成人源28", "detail": "https://adult28.com"},
+    "adult_source29": {"api": "https://api.adult29.com/api.php/provide/vod/", "name": "成人源29", "detail": "https://adult29.com"},
+    "adult_source30": {"api": "https://api.adult30.com/api.php/provide/vod/", "name": "成人源30", "detail": "https://adult30.com"},
+    "adult_source31": {"api": "https://api.adult31.com/api.php/provide/vod/", "name": "成人源31", "detail": "https://adult31.com"},
+    "adult_source32": {"api": "https://api.adult32.com/api.php/provide/vod/", "name": "成人源32", "detail": "https://adult32.com"},
+    "adult_source33": {"api": "https://api.adult33.com/api.php/provide/vod/", "name": "成人源33", "detail": "https://adult33.com"},
+    "adult_source34": {"api": "https://api.adult34.com/api.php/provide/vod/", "name": "成人源34", "detail": "https://adult34.com"},
+    "adult_source35": {"api": "https://api.adult35.com/api.php/provide/vod/", "name": "成人源35", "detail": "https://adult35.com"},
+    "adult_source36": {"api": "https://api.adult36.com/api.php/provide/vod/", "name": "成人源36", "detail": "https://adult36.com"},
+    "adult_source37": {"api": "https://api.adult37.com/api.php/provide/vod/", "name": "成人源37", "detail": "https://adult37.com"},
+    "adult_source38": {"api": "https://api.adult38.com/api.php/provide/vod/", "name": "成人源38", "detail": "https://adult38.com"},
+    "adult_source39": {"api": "https://api.adult39.com/api.php/provide/vod/", "name": "成人源39", "detail": "https://adult39.com"},
+    "adult_source40": {"api": "https://api.adult40.com/api.php/provide/vod/", "name": "成人源40", "detail": "https://adult40.com"},
+    "adult_source41": {"api": "https://api.adult41.com/api.php/provide/vod/", "name": "成人源41", "detail": "https://adult41.com"},
+    "adult_source42": {"api": "https://api.adult42.com/api.php/provide/vod/", "name": "成人源42", "detail": "https://adult42.com"},
+    "adult_source43": {"api": "https://api.adult43.com/api.php/provide/vod/", "name": "成人源43", "detail": "https://adult43.com"},
+    "adult_source44": {"api": "https://api.adult44.com/api.php/provide/vod/", "name": "成人源44", "detail": "https://adult44.com"},
+    "adult_source45": {"api": "https://api.adult45.com/api.php/provide/vod/", "name": "成人源45", "detail": "https://adult45.com"},
+    "adult_source46": {"api": "https://api.adult46.com/api.php/provide/vod/", "name": "成人源46", "detail": "https://adult46.com"},
+    "adult_source47": {"api": "https://api.adult47.com/api.php/provide/vod/", "name": "成人源47", "detail": "https://adult47.com"},
+    "adult_source48": {"api": "https://api.adult48.com/api.php/provide/vod/", "name": "成人源48", "detail": "https://adult48.com"},
+    "adult_source49": {"api": "https://api.adult49.com/api.php/provide/vod/", "name": "成人源49", "detail": "https://adult49.com"},
+    "adult_source50": {"api": "https://api.adult50.com/api.php/provide/vod/", "name": "成人源50", "detail": "https://adult50.com"}
   }
 }
