@@ -4,147 +4,152 @@
     "senlinzy": {
       "api": "https://slapibf.com/api.php/provide/vod",
       "name": "森林资源",
-      "detail": "https://senlinzy.com (成人、无码、有码、三级、网曝)"
+      "detail": "https://senlinzy.com - 成人、无码、有码、三级、网曝、欧美"
+    },
+    "senlin_beiyong": {
+      "api": "https://beiyong.slapibf.com/api.php/provide/vod",
+      "name": "森林备用",
+      "detail": "森林资源备用域名"
     },
     "laosebi": {
       "api": "https://apilsbzy1.com/api.php/provide/vod",
-      "name": "老色逼资源站",
-      "detail": "https://laosebizy.com (国产传媒、三级、AV解说)"
+      "name": "老色逼资源",
+      "detail": "https://laosebizy.com - 国产传媒、三级、AV解说、网曝"
     },
-    "apilsbzy": {
-      "api": "https://apilsbzy1.com/api.php/provide/vod",
-      "name": "老色逼API",
-      "detail": "备用域名 apilsbzy5.com 等"
+    "laosebi_xml": {
+      "api": "https://apilsbzy1.com/api.php/provide/vod/at/xml",
+      "name": "老色逼XML",
+      "detail": "老色逼XML格式采集"
     },
-    "providedao": {
+    "laosebi_dao": {
       "api": "https://apilsbzy1.com/api.php/providedao/vod",
-      "name": "老色逼倒序API",
-      "detail": "推荐倒序采集使用"
+      "name": "老色逼倒序",
+      "detail": "推荐倒序采集，防屏蔽"
+    },
+    "91md": {
+      "api": "https://91md.me/api.php/provide/vod",
+      "name": "91MD资源",
+      "detail": "麻豆、剧情AV、成人头条"
+    },
+    "bt4": {
+      "api": "http://www.bt4.cc/api.php/provide/vod",
+      "name": "BT4资源",
+      "detail": "成人剧情片、麻豆系列"
+    },
+    "xiuse": {
+      "api": "https://api.xiuseapi.com/api.php/provide/vod",
+      "name": "秀色资源",
+      "detail": "18+福利、秀场资源"
     },
     "yyzywcj": {
       "api": "https://www.yyzywcj.com/api.php/provide/vod",
       "name": "优优资源网",
-      "detail": "成人福利向（官网可能失效）"
+      "detail": "成人福利、X站资源"
     },
     "pgxdy": {
       "api": "https://www.pgxdy.com/api/json.php",
       "name": "黄AV资源",
-      "detail": "AV专属"
+      "detail": "AV专属采集"
     },
     "secj8": {
       "api": "http://secj8.com/inc/api_mac10.php",
       "name": "色色资源",
+      "detail": "成人通用"
+    },
+    "emiao": {
+      "api": "http://sscj8.com/inc/api.php",
+      "name": "色色资源站变体",
+      "detail": "https://www.emiao026.com"
+    },
+    "jiujiu": {
+      "api": "http://99zxcj.com/inc/ck.php",
+      "name": "玖玖资源站",
       "detail": "成人资源"
     },
-    "okcj": {
-      "api": "https://www.okcj.site/api/provide/vod",
-      "name": "OK资源",
-      "detail": "部分成人内容"
+    "ttlsn": {
+      "api": "http://www.ttlsn3.com/inc/api.php",
+      "name": "撸死你资源",
+      "detail": "成人向"
     },
-    "xxibaozyw": {
-      "api": "https://xxibaozyw.com/api.php/provide/vod",
-      "name": "细胞资源网",
-      "detail": "X视频源、成人"
+    "apilyzy": {
+      "api": "https://api.apilyzy.com/api.php/provide/vod/at/xml",
+      "name": "爱恋资源",
+      "detail": "JAV、成人"
     },
-    "slapibf_beiyong": {
-      "api": "https://beiyong.slapibf.com/api.php/provide/vod",
-      "name": "森林备用",
-      "detail": "森林资源备用"
-    },
-    "czzy": {
-      "api": "https://www.czzy77.com/api.php/provide/vod",
-      "name": "厂长资源",
-      "detail": "含成人区"
-    },
-    "kuaikan": {
-      "api": "https://kuaikan-api.com/api.php/provide/vod",
-      "name": "快看资源",
-      "detail": "部分成人"
-    },
-    "lzi": {
-      "api": "https://cj.lziapi.com/api.php/provide/vod",
-      "name": "量子资源",
-      "detail": "含成人分类"
-    },
-    "bfzy_news": {
-      "api": "https://news.bfzyapi.com/api.php/provide/art/",
-      "name": "暴风资讯",
-      "detail": "可配合成人vod"
-    },
-    "ikunzy": {
-      "api": "https://ikunzyapi.com/api.php/provide/vod",
-      "name": "iKun资源",
-      "detail": "成人福利向"
+    "caiji25": {
+      "api": "http://www.caiji25.com/home/cjapi",
+      "name": "采集25",
+      "detail": "咪咪资源站相关"
     },
     "heimuer": {
       "api": "https://json.heimuer.xyz/api.php/provide/vod",
       "name": "黑木耳",
-      "detail": "https://heimuer.tv (成人重度)"
+      "detail": "https://heimuer.tv - 重度成人"
     },
-    "ffzy": {
-      "api": "http://ffzy5.tv/api.php/provide/vod",
-      "name": "非凡影视",
-      "detail": "http://ffzy5.tv (含成人)"
-    },
-    "jisu": {
-      "api": "https://jszyapi.com/api.php/provide/vod",
-      "name": "极速资源",
-      "detail": "https://jszyapi.com (成人区)"
-    },
-    "mozhuazy": {
-      "api": "https://mozhuazy.com/api.php/provide/vod",
-      "name": "魔爪资源",
-      "detail": "成人向"
-    },
-    "wujin": {
-      "api": "https://api.wujinapi.me/api.php/provide/vod",
-      "name": "无尽资源",
-      "detail": "成人内容多"
-    },
-    "wwzy": {
-      "api": "https://wwzy.tv/api.php/provide/vod",
-      "name": "旺旺短剧",
-      "detail": "含成人短剧"
+    "ikunzy": {
+      "api": "https://ikunzyapi.com/api.php/provide/vod",
+      "name": "iKun资源",
+      "detail": "福利、成人短剧"
     },
     "xiaomaomi": {
       "api": "https://zy.xmm.hk/api.php/provide/vod",
       "name": "小猫咪资源",
       "detail": "成人福利"
     },
-    "maotaizy": {
-      "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
-      "name": "茅台资源",
-      "detail": "含成人"
+    "wwzy": {
+      "api": "https://wwzy.tv/api.php/provide/vod",
+      "name": "旺旺短剧",
+      "detail": "成人短剧多"
     },
-    "zuid": {
-      "api": "https://api.zuidapi.com/api.php/provide/vod",
-      "name": "最大资源",
-      "detail": "成人分类"
+    "wujin": {
+      "api": "https://api.wujinapi.me/api.php/provide/vod",
+      "name": "无尽资源",
+      "detail": "成人内容丰富"
     },
     "yinghua": {
       "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
       "name": "樱花资源",
-      "detail": "成人樱花"
+      "detail": "成人樱花系列"
     },
-    "dbzy": {
-      "api": "https://dbzy.tv/api.php/provide/vod",
-      "name": "豆瓣资源",
-      "detail": "含成人片"
+    "mozhuazy": {
+      "api": "https://mozhuazy.com/api.php/provide/vod",
+      "name": "魔爪资源",
+      "detail": "成人向"
     },
     "mdzy": {
       "api": "https://www.mdzyapi.com/api.php/provide/vod",
       "name": "魔都资源",
-      "detail": "成人向"
+      "detail": "三级、AV"
+    },
+    "zuid": {
+      "api": "https://api.zuidapi.com/api.php/provide/vod",
+      "name": "最大资源",
+      "detail": "含成人分类"
+    },
+    "ffzy": {
+      "api": "http://ffzy5.tv/api.php/provide/vod",
+      "name": "非凡影视",
+      "detail": "http://ffzy5.tv - 含成人"
+    },
+    "jisu": {
+      "api": "https://jszyapi.com/api.php/provide/vod",
+      "name": "极速资源",
+      "detail": "https://jszyapi.com - 成人区"
+    },
+    "lzi": {
+      "api": "https://cj.lziapi.com/api.php/provide/vod",
+      "name": "量子资源",
+      "detail": "含成人"
+    },
+    "maotaizy": {
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod",
+      "name": "茅台资源",
+      "detail": "含成人福利"
     },
     "wolong": {
       "api": "https://wolongzyw.com/api.php/provide/vod",
       "name": "卧龙资源",
-      "detail": "含三级"
-    },
-    "zy360": {
-      "api": "https://360zy.com/api.php/provide/vod",
-      "name": "360资源",
-      "detail": "成人区"
+      "detail": "三级片多"
     },
     "bfzy": {
       "api": "https://bfzyapi.com/api.php/provide/vod",
@@ -159,37 +164,22 @@
     "ruyi": {
       "api": "http://cj.rycjapi.com/api.php/provide/vod",
       "name": "如意资源",
-      "detail": "含福利"
+      "detail": "福利片"
     },
-    "dyttzy": {
-      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
-      "name": "电影天堂资源",
-      "detail": "部分成人"
+    "zy360": {
+      "api": "https://360zy.com/api.php/provide/vod",
+      "name": "360资源",
+      "detail": "成人区"
     },
-    "okmedcos": {
+    "dbzy": {
+      "api": "https://dbzy.tv/api.php/provide/vod",
+      "name": "豆瓣资源",
+      "detail": "含成人片"
+    },
+    "okzy变体": {
       "api": "https://app.okmedcos.com/ruifenglb_api.php/v1.vod",
-      "name": "OK影视变体",
-      "detail": "成人相关"
-    },
-    "ok00": {
-      "api": "http://123.ok00.xyz/api.php/v1.vod",
-      "name": "OK影视",
+      "name": "OK影视成人变体",
       "detail": "成人线路"
-    },
-    "foxzy": {
-      "api": "https://api.foxzyapi.com/api.php/provide/vod",
-      "name": "FOX资源",
-      "detail": "成人向"
-    },
-    "sdzyapi": {
-      "api": "https://sdzyapi.com/api.php/provide/vod",
-      "name": "闪电资源",
-      "detail": "含成人"
-    },
-    "lziart": {
-      "api": "https://cj.lziapi.com/api.php/provide/art/",
-      "name": "量子资讯",
-      "detail": "可配合成人"
     }
   }
 }
